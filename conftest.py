@@ -1,8 +1,8 @@
 
 
-from agent.rtm.client import AgentRTM
-from customer.rtm.client import CustomerRTM
-from configuration.client import ConfigurationApi
+from livechat.agent.rtm.client import AgentRTM
+from livechat.customer.rtm.client import CustomerRTM
+from livechat.configuration.client import ConfigurationApi
 import pytest
 
 
