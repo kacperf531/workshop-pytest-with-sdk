@@ -2,9 +2,9 @@ import logging
 import requests
 from time import sleep
 
-from agent.rtm.client import AgentRTMInterface
-from configuration.client import ConfigurationApiInterface
-from customer.rtm.client import CustomerRTMInterface
+from livechat.agent.rtm.client import AgentRTMInterface
+from livechat.configuration.client import ConfigurationApiInterface
+from livechat.customer.rtm.client import CustomerRTMInterface
 
 
 def test_agent_login_unsuccessful(agent_rtm):

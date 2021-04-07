@@ -6,7 +6,10 @@ name = "pypi"
 [packages]
 requests = "*"
 pytest = "*"
-lc-sdk-python = "*"
+lc-sdk-python = "0.1.1"
 
 [dev-packages]
 yapf = "*"
+
+[pipenv]
+allow_prereleases = true
